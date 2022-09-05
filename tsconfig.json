@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "jsx": "react",
+        "strict": true,
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["esnext", "dom"],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "exclude": ["node_modules", "build"],
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "tests/**/*.ts",
+        "tests/**/*.tsx"
+    ]
+}
